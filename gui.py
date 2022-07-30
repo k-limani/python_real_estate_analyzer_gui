@@ -53,7 +53,7 @@ class MainWin(tk.Tk):
         frame.pack(anchor=tk.CENTER, expand=True)
 
         # label and buttons
-        BTN_TXTS = "Average Price Trends", "Current Price Trends"
+        btn_txts = "Average Price Trends", "Current Price Trends"
 
         # create the components and pack them together
         tk.Label(
@@ -70,7 +70,7 @@ class MainWin(tk.Tk):
                 font=STANDARD_FONT,
                 command=lambda x=elem, f=self.display: f(x),
             ).pack(side=tk.LEFT, padx=10)
-            for elem in BTN_TXTS
+            for elem in btn_txts
         ]
 
     def display(self, x):
