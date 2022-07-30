@@ -168,13 +168,13 @@ class Rent:
         return current_rents
 
 
-def test_driver():
-    """Main kai_bash_in_python driver which will do the unit
-    testing of all the functions/methods above"""
-    dataprocessor = Rent()
-    dataprocessor.plot_avg_data("Campbell")
-    dataprocessor.plot_avg_data(isAllCities=True)
-    dataprocessor.plot_recent_data()
+# def test_driver():
+#     """Main kai_bash_in_python driver which will do the unit
+#     testing of all the functions/methods above"""
+#     dataprocessor = Rent()
+#     dataprocessor.plot_avg_data("Campbell")
+#     dataprocessor.plot_avg_data(isAllCities=True)
+#     dataprocessor.plot_recent_data()
 
 
-testdriver = test_driver()
+# testdriver = test_driver()
